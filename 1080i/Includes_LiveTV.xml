@@ -103,8 +103,7 @@
 				<align>center</align>
 				<font>cus_time</font>
 				<textcolor>themecolor</textcolor>
-                <label>23:23</label>
-				<!--<label>$INFO[System.Time(hhmm)]</label>-->
+				<label>$INFO[System.Time(hhmm)]</label>
 			</control>
 			<!-- Active backend info (DVBS\DVBS2\IPTV) -->
 			<control type="group">
