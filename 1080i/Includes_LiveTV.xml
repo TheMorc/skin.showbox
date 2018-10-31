@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <includes>
 	<include name="FullScreenInfoBarLiveTV">
-		<animation effect="fade" start="0" end="100" time="400">WindowOpen</animation>
-		<animation effect="fade" start="100" end="0" time="400">WindowClose</animation>
+		<animation effect="slide" start="0,300" end="0,0" time="500" tween="circle" easing="inout">WindowOpen</animation>
+		<animation effect="slide" start="0,0" end="0,300" time="400" tween="circle" easing="inout">WindowClose</animation>
 		<!-- Main background -->
 		<control type="group">
 			<top>778</top>
@@ -31,8 +31,8 @@
 
 		<!-- Channel logo -->
 		<control type="group" id="1">
-			<animation effect="fade" start="0" end="100" time="400">WindowOpen</animation>
-			<animation effect="fade" start="100" end="0" time="400">WindowClose</animation>
+			<animation effect="fade" start="0" end="100" time="800">WindowOpen</animation>
+			<animation effect="fade" start="100" end="0" time="200">WindowClose</animation>
 			<control type="image"> <!-- Logo background -->
 				<left>80</left>
 				<top>815</top>
@@ -76,7 +76,7 @@
 			</control>
 
 			<control type="label" id="1">
-				<left>1370</left>
+				<left>1420</left>
 				<top>808</top>
 				<width>250</width>
 				<height>30</height>
@@ -86,24 +86,25 @@
 				<label>$INFO[System.Date(DDD)]</label>
 			</control>
 			<control type="label" id="1">
-				<left>1370</left>
+				<left>1420</left>
 				<top>840</top>
 				<width>250</width>
 				<height>30</height>
 				<align>right</align>
-				<font>cus2</font>
+				<font>cus1</font>
 				<textcolor>themecolor</textcolor>
 				<label>$INFO[System.Date(dd.mm)]</label>
 			</control>
 			<control type="label" id="1">
-				<left>1620</left>
+				<left>1650</left>
 				<top>788</top>
 				<width>240</width>
 				<height>100</height>
 				<align>center</align>
 				<font>cus_time</font>
 				<textcolor>themecolor</textcolor>
-				<label>$INFO[System.Time(hhmm)]</label>
+                <label>23:23</label>
+				<!--<label>$INFO[System.Time(hhmm)]</label>-->
 			</control>
 			<!-- Active backend info (DVBS\DVBS2\IPTV) -->
 			<control type="group">
