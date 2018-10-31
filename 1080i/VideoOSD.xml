@@ -283,6 +283,16 @@
 					<onclick>ActivateWindow(PVROSDChannels)</onclick>
 					<onclick>Dialog.Close(VideoOSD)</onclick>
 				</control>
+				<control type="button" id="808">
+					<texturefocus>osd/buttons/OSDChannelGuideFO.png</texturefocus>
+					<texturenofocus>osd/buttons/OSDChannelGuideNF.png</texturenofocus>
+					<label />
+					<width>100</width>
+					<height>100</height>
+					<font />
+					<onclick>Dialog.Close(VideoOSD)</onclick>
+					<onclick>ActivateWindow(PVROSDGuide)</onclick>
+				</control>
 				<control type="button" id="809">
 					<texturefocus>osd/buttons/OSDStereoscopicFO.png</texturefocus>
 					<texturenofocus>osd/buttons/OSDStereoscopicNF.png</texturenofocus>
@@ -302,6 +312,15 @@
 					<font />
 					<onclick>Dialog.Close(VideoOSD)</onclick>
 					<onclick>ActivateWindow(TVGuide)</onclick>
+				</control>
+				<control type="button" id="810">
+					<texturefocus>osd/buttons/OSDTeleTextFO.png</texturefocus>
+					<texturenofocus>osd/buttons/OSDTeleTextNF.png</texturenofocus>
+					<label />
+					<width>100</width>
+					<height>100</height>
+					<font />
+					<onclick>ActivateWindow(Teletext)</onclick>
 				</control>
 			</control>
 		</control>
