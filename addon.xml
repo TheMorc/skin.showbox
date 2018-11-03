@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="skin.showbox" version="1.0.1" name="Showbox" provider-name="Morc">
+<addon id="skin.showbox" version="1.0.1" name="Showbox Skin" provider-name="Morc">
 	<requires>
 		<import addon="xbmc.gui" version="5.13.0"/>
 		<import addon="script.grab.fanart" version="0.12.8"/>
